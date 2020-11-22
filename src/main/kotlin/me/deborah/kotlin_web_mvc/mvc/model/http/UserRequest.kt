@@ -7,8 +7,8 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming
 // RestController인 경우
 // Obejct일 때, Json형태로 바뀐다.
 
-// 방법 2: 클래스에 타입을 지정해주는 방법
-@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy::class)
+//// 방법 2: 클래스에 타입을 지정해주는 방법
+//@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy::class)
 data class UserRequest (
     var name : String?=null,
     var age : Int?=null,
